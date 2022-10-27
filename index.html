@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <a href="https://www.flaticon.com/free-icons/book" title="book icons">Book icons created by Zlatko Najdenovski - Flaticon</a> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Alan Hukuk </title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+        <div class="sidebar">
+            <div class="logo-content">
+                <div class="logo">
+                    <i class='bx bxl-adobe'></i>
+                    <div class="logo-name">Hukuk</div>
+                </div>
+                <i class='bx bx-menu' id="btn"></i>
+            </div>
+            <ul class="nav-list">
+        
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-hand-right'></i>
+                        <span class="links-name">Çalışma Alanımız</span>
+                    </a>
+                    <span class="tooltip">Alanımız</span>
+
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-phone'></i>
+                        <span class="links-name">İletişim</span>
+                    </a>
+                    <span class="tooltip">İletişim</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-book'></i>
+                        <span class="links-name">Bültenler</span>
+                    </a>
+                    <span class="tooltip">Bültenler</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-edit-alt'></i>
+                        <span class="links-name">Makaleler</span>
+                    </a>
+                    <span class="tooltip">Makaleler</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bx-pin'></i>
+                        <span class="links-name">Emsal Yargı Kararları</span>
+                    </a>
+                    <span class="tooltip">Emsal Yargı</span>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-user-account'></i>
+                        <span class="links-name">Ekibimiz</span>
+                    </a>
+                    <span class="tooltip">Ekibimiz</span>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='bx bxs-buildings'></i>
+                        <span class="links-name">Hakkımızda</span>
+                    </a>
+                    <span class="tooltip">Hakkımızda</span>
+                </li>
+            </ul>
+            
+        </div>
+                <div class="home-content">
+                   
+                            content stars here
+
+                </div>
+                
+            
+
+        <script>
+            let btn = document.querySelector("#btn");
+            let sidebar = document.querySelector(".sidebar");
+            
+
+            btn.onclick = function() {
+                sidebar.classList.toggle("active");
+            }
+        </script>
+</body>
+</html>
